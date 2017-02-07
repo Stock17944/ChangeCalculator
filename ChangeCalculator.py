@@ -27,7 +27,5 @@ while True:
         print("You need {} quarters, {} dimes, and {} nickels.".format(int(quarters), int(dimes), int(nickels)))
         break
     elif round(f-quartersv-dimesv-nickelsv-penniesv, 2) == 0:
-        print("You need {} quarters, {} dimes, {} nickels, and {} pennies".format(int(quarters), int(dimes), int(nickels), int(pennies)))
-        break
-        print("You need {} quarters, {} dimes, and {} nickels.".format(int(quarters), int(dimes), int(nickels)))
+        print("You need {} quarters, {} dimes, {} nickels, and {} pennies.".format(int(quarters), int(dimes), int(nickels), int(pennies)))
         break
